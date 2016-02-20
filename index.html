@@ -21,12 +21,25 @@
     <link href="lib/bootstrap-social/assets/css/docs.css" rel="stylesheet" >
     <link href="lib/bootstrap-social/bootstrap-social.css" rel="stylesheet" >
 
+    <link href="lib/academicons/css/academicons.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="images/Todai-logo.png" >
+
+
+
     <style>
       .unreferred {
         color: #444444;
       }
       .unreferred a {
         color: #444444;
+      }
+      .header-container img {
+        float: left;
+        width: 50px;
+        height: 50px;
+        margin-top: 13px;
+        margin-right: 15px;
       }
     </style>
   </head>
@@ -38,13 +51,14 @@
 
     <div class="header-container">
       <header class="wrapper clearfix">
+        <img src="images/Todai-logo.png" alt="logo" />
         <h1 class="title">Alonso J. Gragera Aguaza</h1>
           <nav>
             <ul>
               <li class="active"><a href="http://www-imai.is.s.u-tokyo.ac.jp/%7Ealonso/index.html">Home</a></li>
               <!--li><a href="http://www-imai.is.s.u-tokyo.ac.jp/%7Ealonso/CV.pdf">CV</a></li-->
               <li><a href="http://www-imai.is.s.u-tokyo.ac.jp/%7Ealonso/projects.html">Projects</a></li>
-              <!--li><a href="http://www-imai.is.s.u-tokyo.ac.jp/%7Ealonso/go.html">Go</a></li-->
+              <li><a href="http://www-imai.is.s.u-tokyo.ac.jp/%7Ealonso/go.html">Go</a></li>
             </ul>
           </nav>
       </header>
@@ -65,7 +79,7 @@
 
               <p>
                 My research topic is to develop efficient algorithms for Artificial Intelligence by exploiting non-extact search.
-                In particular, my Ph.D. Thesis is about a new methods for opening books in Computer Go.
+                In particular, my Ph.D. Thesis is about a topology-aware mapping for distributed MCTS in Computer Go.
               </p>
 
               <p>
@@ -107,6 +121,10 @@
                   <i class="fa fa-github"></i>
                 </a> <a class="btn btn-social-icon btn-bitbucket" href="https://bitbucket.org/Ellyster">
                   <i class="fa fa-bitbucket"></i>
+                </a> <a class="btn btn-social-icon btn-google-scholar" href="https://scholar.google.com/citations?user=k6ZGpcwAAAAJ">
+                  <i class="ai ai-google-scholar"></i>
+                </a> <a class="btn btn-social-icon btn-researchgate" href="https://www.researchgate.net/profile/Alonso_Gragera_Aguaza">
+                  <i class="ai ai-researchgate"></i>
                 </a>
                 </br>
                 <i><a href="mailto:alonso@is.s.u-tokyo.ac.jp">alonso (at) is.s.u-tokyo.ac.jp</a></i>
@@ -127,7 +145,7 @@
               <h3>University of Granada</h3>
 
               <ul class="multiline">
-                <font size="4">B.Sc. in Computer Science &amp; B.Eng. in Software Engineering</font>
+                <font size="4">B.Sc. in Computer Science / B.Eng. in Software Engineering</font>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>(5-years degree)</i><br>
                 <strong>8.391 / 10.0</strong> &nbsp;&nbsp;<i>with 1st class Honors</i><br>
               </ul>
@@ -148,13 +166,22 @@
 
               <ul class="multiline">
                 <font size="4">Ph.D. in Computer Science</font><br>
+                Doctoral Thesis: <i>"On Go board position clustering and its applications to distributed MCTS"</i><br>
+                <strong>4.0 / 4.0</strong> <!--&nbsp;&nbsp;<i>with the Dean's Award for Excellent Doctoral Thesis</i> --> <br>
                 <em>Currently coursing</em>
-                <!--
-                Doctoral Thesis: <i>"Approximate opening books for Computer Go"</i><br>
-                <strong>4.0 / 4.0</strong> <!--&nbsp;&nbsp;<i>with the Dean's Award for Excellent Doctoral Thesis</i> -->
               </ul>
             </div>
           </section>
+
+          <!-- ICONS TO USE
+          <a href="http://www-imai.is.s.u-tokyo.ac.jp/%7Ealonso/papers/XXX_paper.pdf" class="file"><span class="btn btn-primary btn-xs"><i class="fa fa-file-text-o"></i> Paper</span></a>
+          <a href="http://www-imai.is.s.u-tokyo.ac.jp/%7Ealonso/posters/XXX_poster.pdf" class="file"><span class="btn btn-success btn-xs"><i class="fa fa-picture-o"></i> Poster</span></a>
+          <a href="http://www-imai.is.s.u-tokyo.ac.jp/%7Ealonso/references/XXX_reference.bibtex" class="file"><span class="btn btn-warning btn-xs"><i class="fa fa-bars"></i> Bibtex</span></a>
+          <a href="https://github.com/Ellyster/XXX" class="file"><span class="btn btn-danger btn-xs"><i class="fa fa-code"></i> Source code</span></a>
+          <a href="http://www-imai.is.s.u-tokyo.ac.jp/%7Ealonso/datasets/XXX_datasets.zip" class="file"><span class="btn btn-info btn-xs"><i class="fa fa-file-archive-o"></i> Dataset</span></a>
+          <a href="http://www-imai.is.s.u-tokyo.ac.jp/%7Ealonso/presentations/XXX_presentation.pdf" class="file"><span class="btn btn-success btn-xs"><i class="fa fa-television"></i> Slides</span></a>
+          <a href="http://www-imai.is.s.u-tokyo.ac.jp/%7Ealonso/books/XXX_book.pdf" class="file"><span class="btn btn-primary btn-xs"><i class="fa fa-book"></i> Book</span></a>
+          -->
 
           </br>
           <section>
@@ -172,69 +199,86 @@
                   <a href="http://www.ipsj.or.jp/sig/gi/gpw/2013/index-e.html" class="file"><b>The 18th Game Programming Workshop (GPW'13)</b></a>. <!--<i>(Research track full paper, AC Rate: <font color="red">12.9%</font>)</i>-->
                   <!-- &nbsp;&nbsp;&nbsp;≪ <a href="http://www-imai.is.s.u-tokyo.ac.jp/%7Ealonso/bibtex/sr_gpw13.bib" class="file">BibTex</a> ≫-->
                   <br>
-                  <a href="http://www-imai.is.s.u-tokyo.ac.jp/%7Ealonso/papers/sr_gpw13_paper.pdf" class="file"><span class="btn btn-primary btn-xs"><i class="fa fa-download"></i> Paper</span></a>
-                  <a href="http://www-imai.is.s.u-tokyo.ac.jp/%7Ealonso/posters/sr_gpw13_poster.pdf" class="file"><span class="btn btn-success btn-xs"><i class="fa fa-download"></i> Poster</span></a>
+                  <a href="http://www-imai.is.s.u-tokyo.ac.jp/%7Ealonso/papers/sr_gpw13_paper.pdf" class="file"><span class="btn btn-primary btn-xs"><i class="fa fa-file-text-o"></i> Paper</span></a>
+                  <a href="http://www-imai.is.s.u-tokyo.ac.jp/%7Ealonso/posters/sr_gpw13_poster.pdf" class="file"><span class="btn btn-success btn-xs"><i class="fa fa-picture-o"></i> Poster</span></a>
+                  <a href="http://www-imai.is.s.u-tokyo.ac.jp/%7Ealonso/references/sr_gpw13_reference.bibtex" class="file"><span class="btn btn-warning btn-xs"><i class="fa fa-bars"></i> Bibtex</span></a>
                 </li>
 
+                <!--
                 <li>
                   <a href="">Norie Fu</a>,
                   <u>Alonso Gragera</u> and
                   <a href="http://www-imai.is.s.u-tokyo.ac.jp/%7Emr_t_dtone/">Vorapong Suppakitpaisarn</a>.<br>
                   <strong>Clustering 1-dimensional periodic networks using betweenness centrality</strong>. <font color="red">(Submitted)</font><br>
-                  <a href="http://www.al.cm.is.nagoya-u.ac.jp/isaac2015/" class="file"><b>The 26th International Symposium on Algorithms and Computation (ISAAC'15)</b></a>. <!--<i>(Research track full paper, AC Rate: <font color="red">12.9%</font>)</i>-->
-                  <!--
-                  &nbsp;&nbsp;&nbsp;≪ <a href="http://www-imai.is.s.u-tokyo.ac.jp/%7Ealonso/bibtex/ibc_sdm15.bib" class="file">BibTex</a> ≫
-                  -->
-                  <br>
-                  <!--
-                  <a href="http://www-imai.is.s.u-tokyo.ac.jp/%7Ealonso/papers/ibc_sdm15_paper.pdf" class="file"><span class="btn btn-primary btn-xs"><i class="fa fa-download"></i> Paper</span></a>
-                  -->
-                  <!--<a href="http://www-imai.is.s.u-tokyo.ac.jp/%7Ealonso/datasets/ibc_sdm15_dataset.txtf" class="file"><span class="btn btn-danger btn-xs"><i class="fa fa-download"></i> Dataset</span></a>-->
+                  <a href="http://www.al.cm.is.nagoya-u.ac.jp/isaac2015/" class="file"><b>The 26th International Symposium on Algorithms and Computation (ISAAC'15)</b></a>.
                 </li>
+                -->
 
                 <li>
                   <u>Alonso Gragera</u>.<br>
-                  <strong>Approximate matching for Go board positions</strong>. <font color="red">(Submitted)</font><br>
+                  <strong>Approximate matching for Go board positions</strong>.<br>
                   <a href="http://waac-15.appspot.com/" class="file"><b>The 18th Korea-Japan Joint Workshop on Algorithms and Computation (WAAC'15)</b></a>
                   <br>
-                  <a href="http://www-imai.is.s.u-tokyo.ac.jp/%7Ealonso/papers/am_waac15_paper.pdf" class="file"><span class="btn btn-primary btn-xs"><i class="fa fa-download"></i> Paper</span></a>
+                  <a href="http://www-imai.is.s.u-tokyo.ac.jp/%7Ealonso/papers/am_waac15_paper.pdf" class="file"><span class="btn btn-primary btn-xs"><i class="fa fa-file-text-o"></i> Paper</span></a>
+                  <a href="http://www-imai.is.s.u-tokyo.ac.jp/%7Ealonso/presentations/am_waac15_presentation.pdf" class="file"><span class="btn btn-success btn-xs"><i class="fa fa-television"></i> Slides</span></a>
+                  <a href="http://www-imai.is.s.u-tokyo.ac.jp/%7Ealonso/references/am_waac15_reference.bibtex" class="file"><span class="btn btn-warning btn-xs"><i class="fa fa-bars"></i> Bibtex</span></a>
                 </li>
 
                 <li>
                   <u>Alonso Gragera</u>.<br>
-                  <strong>Approximate matching for Go board positions</strong>. <font color="red">(Submitted)</font><br>
+                  <strong>Approximate matching for Go board positions</strong>.<br>
                   <a href="http://www.ipsj.or.jp/sig/gi/gpw/2015/index-e.html" class="file"><b>The 20th Game Programming Workshop 2015 (GPW'15)</b></a>
                   <br>
-                  <!--a href="http://www-imai.is.s.u-tokyo.ac.jp/%7Ealonso/papers/am_waac15_paper.pdf" class="file"><span class="btn btn-primary btn-xs"><i class="fa fa-download"></i> Paper</span></a-->
+                  <a href="http://www-imai.is.s.u-tokyo.ac.jp/%7Ealonso/papers/am_gpw15_paper.pdf" class="file"><span class="btn btn-primary btn-xs"><i class="fa fa-file-text-o"></i> Paper</span></a>
+                  <a href="http://www-imai.is.s.u-tokyo.ac.jp/%7Ealonso/posters/am_gpw15_poster.pdf" class="file"><span class="btn btn-success btn-xs"><i class="fa fa-picture-o"></i> Poster</span></a>
+                  <a href="http://www-imai.is.s.u-tokyo.ac.jp/%7Ealonso/references/am_gpw15_reference.bibtex" class="file"><span class="btn btn-warning btn-xs"><i class="fa fa-bars"></i> Bibtex</span></a>
+                </li>
+
+                <li>
+                  <u>Alonso Gragera</u> and
+                  <a href="http://www-imai.is.s.u-tokyo.ac.jp/%7Emr_t_dtone/">Vorapong Suppakitpaisarn</a>.<br>
+                  <strong>Semimetric Properties of S&oslash;rensen-Dice and Tversky Indexes</strong>.<br>
+                  <a href="http://walcom2016.aitm.edu.np/" class="file"><b>The 10th International Workshop on Algorithms and Computation (WALCOM'16)</b></a>
+                  <br>
+                  <a href="http://www-imai.is.s.u-tokyo.ac.jp/%7Ealonso/papers/sp_walcom16_paper.pdf" class="file"><span class="btn btn-primary btn-xs"><i class="fa fa-file-text-o"></i> Paper</span></a>
+                  <a href="http://www-imai.is.s.u-tokyo.ac.jp/%7Ealonso/presentations/sp_walcom16_presentation.pdf" class="file"><span class="btn btn-success btn-xs"><i class="fa fa-television"></i> Slides</span></a>
+                  <a href="http://www-imai.is.s.u-tokyo.ac.jp/%7Ealonso/references/sp_walcom16_reference.bibtex" class="file"><span class="btn btn-warning btn-xs"><i class="fa fa-bars"></i> Bibtex</span></a>
                 </li>
               </ul>
             </div>
 
-            <!--div class="section_body">
+            <div class="section_body">
               <h3>Journal Papers</h3>
 
               <ul class="multiline">
                 <li>
-
+                  <u>Alonso Gragera</u> and
+                  <a href="http://www-imai.is.s.u-tokyo.ac.jp/%7Emr_t_dtone/">Vorapong Suppakitpaisarn</a>.<br>
+                  <strong>Minimizing Communication Latency for Distributed MCTS</strong>.<br>
+                  <a href="http://www.ipsj.or.jp/english/jip/index.html" class="file"><b>Journal of Information Processing (JIP) - Special Issue of "Game Programming"</b></a>
+                  <br>
+                  <a href="http://www-imai.is.s.u-tokyo.ac.jp/%7Ealonso/papers/ml_jip16_paper.pdf" class="file"><span class="btn btn-primary btn-xs"><i class="fa fa-file-text-o"></i> Paper</span></a>
+                  <a href="http://www-imai.is.s.u-tokyo.ac.jp/%7Ealonso/datasets/ml_jip16_datasets.zip" class="file"><span class="btn btn-info btn-xs"><i class="fa fa-file-archive-o"></i> Dataset</span></a>
+                  <a href="https://github.com/Ellyster/ml_jip16" class="file"><span class="btn btn-danger btn-xs"><i class="fa fa-code"></i> Source code</span></a>
+                  <a href="http://www-imai.is.s.u-tokyo.ac.jp/%7Ealonso/references/ml_jip16_reference.bibtex" class="file"><span class="btn btn-warning btn-xs"><i class="fa fa-bars"></i> Bibtex</span></a>
                 </li>
               </ul>
-            </div-->
+            </div>
 
             <div class="section_body">
               <!--<h3>Expository Papers</h3>-->
-              <h3>Technical Reports</h3>
+              <h3>Books and book sections</h3>
 
               <ul class="multiline">
                 <li>
                   <u>Alonso Gragera</u>,
                   <a href="http://www-imai.is.s.u-tokyo.ac.jp/%7Ebaffier/">Jean-Francois Baffier</a> and
                   <a href="http://www-imai.is.s.u-tokyo.ac.jp/%7Emr_t_dtone/">Vorapong Suppakitpaisarn</a>.<br>
-                  <strong>An Analysis of ‘Skull &amp; Roses’ Cards Game</strong>.<br>
-                  <a href="http://www.springerreference.com/docs/index.html#Encyclopedia+of+Computer+Graphics+and+Games+%28Computer+Science%29-book529" class="file"><b>Encyclopedia of Computer Graphics and Games</b></a>, SpringerReference.
-                  <!--
-                  &nbsp;&nbsp;&nbsp;≪
-                  <a href="http://www-imai.is.s.u-tokyo.ac.jp/%7Ealonso/papers/sr_ecgg14_paper.pdf" class="file">paper</a> ≫
-                  -->
+                  <strong>‘Skull &amp; Roses’ Cards Game</strong>.<br>
+                  <a href="http://www.springerreference.com/docs/index.html#Encyclopedia+of+Computer+Graphics+and+Games+%28Computer+Science%29-book529" class="file"><b>Encyclopedia of Computer Graphics and Games</b></a>, Springer.
+                  <br>
+                  <a href="http://www-imai.is.s.u-tokyo.ac.jp/%7Ealonso/papers/sr_ecgg14_paper.pdf" class="file"><span class="btn btn-primary btn-xs"><i class="fa fa-file-text-o"></i> Paper</span></a>
+                  <a href="http://www-imai.is.s.u-tokyo.ac.jp/%7Ealonso/references/sr_ecgg14_reference.bibtex" class="file"><span class="btn btn-warning btn-xs"><i class="fa fa-bars"></i> Bibtex</span></a>
                 </li>
               </ul>
             </div>
@@ -251,7 +295,7 @@
               <ul>
                 <li><strong><a href="http://www.microsoft.es">Microsoft Spain</a></strong>: DPE Internship (2009)</li>
                 <li><strong><a href="http://www.u-tokyo.ac.jp/en/">The University of Tokyo</a></strong>: Research student (2013)</li>
-                <li><strong><a href="http://www.housecare.io/">HouseCare (by MommyCare)</a></strong>: Cofounder &amp; CTO (2014-2015)</li>
+                <li><strong><a href="http://www.housecare.io/">HouseCare (by MommyCare Kabushiki Kaisha)</a></strong>: Cofounder &amp; CTO (2014-2016)</li>
                 <!--<li><strong><a href="http://www.google.jp/">Google Japan</a></strong>: Software Eng. Internship (2015)</li>-->
               </ul>
             </div>
@@ -320,7 +364,7 @@
               <ul>
                 <li><strong>UGR mobility scholarship</strong>: Japan 2009-2010</li>
                 <li><strong>EU Erasmus scholarship</strong>: Finland 2010-2011</li>
-                <li><strong>Japanese Goverment MEXT scholarship</strong>: 2013, 2014, 2015, 2016</li>
+                <li><strong>Japanese Goverment MEXT scholarship</strong>: 2013-2016</li>
               </ul>
             </div>
 
