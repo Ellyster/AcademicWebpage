@@ -1,9 +1,0 @@
-@inproceedings{conf/gpw/Gragera15,
-  author    = {Alonso Gragera},
-  title     = {Approximate matching for Go board positions},
-  booktitle = {The 20th Game Programming Workshop,
-               {GPW} 2015, Karuizawa, Nagano, JAPAN, November 6-8, 2015, Proceedings},
-  pages     = {113--118},
-  year      = {2015}
-}
-
