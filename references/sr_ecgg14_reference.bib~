@@ -1,0 +1,11 @@
+@incollection{book/ecgg/Gragera14,
+  author    = {Alonso Gragera, Jean-Francois Baffier and Vorapong Suppakitpaisarn},
+  title     = {Skull and Roses card game},
+  editor    = {Newton Lee},
+  booktitle = {Encyclopedia of Computer Graphics and Games, {ECGG}},
+  chapter   = {19},
+  pages     = {1--4},
+  publisher = {Springer},
+  year      = {2015}
+}
+
